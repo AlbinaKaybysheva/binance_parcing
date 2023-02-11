@@ -11,13 +11,20 @@ The program is using websockets and Binance API to get real-time futures price.
 
 2. Create a virtual environment. To do that, run the command:
 
+```
 python -m venv .venv   # windows
 python3 -m venv .venv  # linux or macos
+```
 
 3. Then activate your venv:
 
+```
 .venv\Scripts\activate.bat  # windows
 source .venv/bin/activate   # linux or macos
+```
 
 4. Install all required libraries:
+```
 pip install - r requirements.txt
+```
+5. And now you can run main.py
